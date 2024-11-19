@@ -1,0 +1,9 @@
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label {
+    background-color: lightgreen;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
